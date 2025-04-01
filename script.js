@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnNo = document.querySelector("#btn-random");
 
     function moverAleatoriamente(btn) {
-        const maxWidth = window.innerWidth - btn.clientWidth - 20; // Evita que salga de la pantalla
+        const maxWidth = window.innerWidth - btn.clientWidth - 20;
         const maxHeight = window.innerHeight - btn.clientHeight - 20; 
 
         const newX = Math.random() * maxWidth;
