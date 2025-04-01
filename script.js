@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         btnNo.addEventListener("click", function (event) {
-            event.preventDefault(); // Bloquea el clic
+            event.preventDefault();
             moverAleatoriamente(btnNo);
         });
     }
